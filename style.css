@@ -171,12 +171,12 @@ body {
     min-width: 60%;
   }
   #heroLeft .elem {
-    height: 18vw;
+    height: 15vw;
   }
   #heroLeft .elem h1 {
     font-family: "Times New Roman", Times, serif;
     text-transform: capitalize;
-    font-size: 18vw;
+    font-size: 16vw;
   }
   #heroLeft button {
     font-family: "Times New Roman", Times, serif;
