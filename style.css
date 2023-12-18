@@ -167,6 +167,9 @@ body {
     width: 34%;
     color: white;
   }
+  #heroLeft {
+    min-width: 60%;
+  }
   #heroLeft .elem {
     height: 18vw;
   }
