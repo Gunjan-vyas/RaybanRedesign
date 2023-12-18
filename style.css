@@ -88,7 +88,6 @@ body {
 }
 #heroLeft .elem h1:nth-child(1) {
   top: 0;
-  
 }
 #heroLeft .elem h1 {
   position: absolute;
@@ -107,6 +106,7 @@ body {
   font-size: 3vw;
   margin-top: 2vw;
   font-family: "kajiro";
+  border: none;
 }
 #heroRight {
   width: 17%;
@@ -135,4 +135,42 @@ body {
 
 #heroRight p:nth-child(3) {
   margin-bottom: 100px;
+}
+
+/* mobile responsive  */
+@media screen and (max-width: 480px) {
+  #main {
+    width: 100%;
+    height: 100vh;
+  }
+  #nav {
+    display: none;
+  }
+
+  #workingArea {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1920px;
+    height: 100vh;
+  }
+
+  #hero {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+  }
+  #heroRight #imagediv {
+    display: none;
+  }
+  #heroRight {
+    width: 34%;
+    color: white;
+  }
+  #heroLeft .elem {
+    height: 20vw;
+  }
+  #heroLeft .elem h1 {
+    font-size: 20vw;
+  }
 }
